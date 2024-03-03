@@ -9,11 +9,23 @@ const StyledBtn=styled.button`
 
 const Landing = () => {
   return (
-    <div>
+    <Wrapper>
       <h1>Landing</h1>
       <StyledBtn> Read More</StyledBtn>
-    </div>
+
+      <div className="content">
+        Some Content
+      </div>
+    </Wrapper>
   )
 }
+
+const Wrapper=styled.div`
+  background-color: red;
+
+  .content{
+    background-color: orange;
+  }
+`
 
 export default Landing
