@@ -1,8 +1,9 @@
 import Wrapper from "../assets/wrappers/Navbar"
+import { GoHome } from "react-icons/go";
 
 const Navbar = () => {
   return (
-    <Wrapper>Navbar</Wrapper>
+    <Wrapper>Navbar <GoHome /></Wrapper>
   )
 }
 
