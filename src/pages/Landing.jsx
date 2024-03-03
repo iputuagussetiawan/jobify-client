@@ -19,7 +19,7 @@ const Landing = () => {
           digital system designed to monitor and manage various aspects of job assignments, projects, or tasks within an organization. It provides a centralized platform accessible via web browsers, allowing users to efficiently oversee the progress of tasks, allocate resources, set deadlines, and communicate with team members
           </p>
           <Link to="/register" className='btn register-link'>Register</Link>
-          <Link to="/login" className='btn register-link'>Register</Link>
+          <Link to="/login" className='btn register-link'>Login</Link>
         </div>
         <img src={main} alt="hero image" className='img main-img' />
       </div>
